@@ -2,6 +2,9 @@
 
 ## Introduction
 
+This is a folk repository of [nvim-lua/kickstart.vim](https://github.com/nvim-lua/kickstart.nvim).
+I, fukusuke-navagis, customised init.vim to optimise my personal preferences.
+
 A starting point for Neovim that is:
 
 * Small
