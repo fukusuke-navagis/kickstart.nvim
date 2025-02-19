@@ -13,6 +13,14 @@ A starting point for Neovim that is:
 
 **NOT** a Neovim distribution, but instead a starting point for your configuration.
 
+### Changes from the original
+
+| Item | Detail |
+| :--- | :---- |
+| Line number display | Enable Relative number/number |
+| Enable Nerd font | Change value of vim.g.have_nerd_font from false to true |
+| Add key maps | Add key maps <C-n> -> Next buffer, <C-b> Previous buffer|
+
 ## Installation
 
 ### Install Neovim
