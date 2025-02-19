@@ -19,7 +19,7 @@ A starting point for Neovim that is:
 | :--- | :---- |
 | Enable Relative line number ([0963c14](https://github.com/fukusuke-navagis/kickstart.nvim/commit/0963c14d67dfa6f3d0efce3d532ef04773d8cae6)) | Enable Relative number/number |
 | Enable Nerd font ([74e73b3](https://github.com/fukusuke-navagis/kickstart.nvim/commit/74e73b3f9d7c7b7195bfa41f44fe612b671b7522)) | Change value of vim.g.have_nerd_font from false to true |
-| feat: add key maps to switch buffers ([2da6236](https://github.com/fukusuke-navagis/kickstart.nvim/commit/2da62361596affaafaf6d20fc0d287f38a183030)) | Add key maps <C-n> -> Next buffer, <C-b> Previous buffer|
+| feat: add key maps to switch buffers ([2da6236](https://github.com/fukusuke-navagis/kickstart.nvim/commit/2da62361596affaafaf6d20fc0d287f38a183030)) | Add key maps <C\-n> -> Next buffer, <C\-b> Previous buffer|
 
 ## Installation
 
