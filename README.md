@@ -17,11 +17,13 @@ A starting point for Neovim that is:
 
 | Item (commit hash) | Detail |
 | :--- | :---- |
-| Enable Relative line number ([0963c14](https://github.com/fukusuke-navagis/kickstart.nvim/commit/0963c14d67dfa6f3d0efce3d532ef04773d8cae6)) | Enable Relative number/number |
-| Enable Nerd font ([74e73b3](https://github.com/fukusuke-navagis/kickstart.nvim/commit/74e73b3f9d7c7b7195bfa41f44fe612b671b7522)) | Change value of vim.g.have_nerd_font from false to true |
-| feat: add key maps to switch buffers ([2da6236](https://github.com/fukusuke-navagis/kickstart.nvim/commit/2da62361596affaafaf6d20fc0d287f38a183030)) | Add key maps <C\-n> \-> Next buffer, <C\-b> \-> Previous buffer |
-| Change: Add and change the colorscheme to Gruvbox ([0481001](https://github.com/fukusuke-navagis/kickstart.nvim/commit/048100118ff3a871bc7886f320713b6bb6a1fc19)) | Load [ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) and changed to it |
-| update: Add python purser of Treesitter ([074a75a](https://github.com/fukusuke-navagis/kickstart.nvim/commit/074a75a9f3a2326aebcd3ef42a81961e652451d3)) | Let treesitter purse Python |
+| Enable Relative line number (0963c14) | Enable Relative number/number |
+| Enable Nerd font (74e73b3) | Change value of vim.g.have_nerd_font from false to true |
+| feat: add key maps to switch buffers (2da6236) | Add key maps <C\-n> \-> Next buffer, <C\-b> \-> Previous buffer |
+| Change: Add and change the colorscheme to Gruvbox (0481001) | Load [ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) and changed to it |
+| update: Add python purser of Treesitter (074a75a) | Let treesitter purse Python |
+| change: Change keymap of privious buffer (d066d77) | Change key map of previous buffer from <C\-b> to <C\-p>. |
+| add: Add neoscroll plug-in (d066d77) | Add neoscroll plug-in for smooth scroll. |
 
 ## Installation
 
