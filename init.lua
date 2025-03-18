@@ -191,7 +191,7 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 
 -- My custom keymap to swithch the buffers
 vim.keymap.set('n', '<C-n>', ':bnext<CR>')
-vim.keymap.set('n', '<C-b>', ':bprev<CR>')
+vim.keymap.set('n', '<C-p>', ':bprev<CR>')
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
@@ -257,6 +257,11 @@ require('lazy').setup({
         changedelete = { text = '~' },
       },
     },
+  },
+
+  { -- Add Neoscroll: a smooth scrolling plugin
+    'karb94/neoscroll.nvim',
+    opts = {},
   },
 
   -- NOTE: Plugins can also be configured to run Lua code when they are loaded.
